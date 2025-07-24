@@ -6,10 +6,14 @@
 }
 
 body {
-    max-width: 1140px;
-    margin: 0 auto;
+  max-width: 1140px;
+  margin: 0 auto;
 }
 
 .primary-color {
-    color: #E95A08;
+  color: #e95a08;
+}
+
+.trusted-img {
+  animation-duration: 10s;
 }
