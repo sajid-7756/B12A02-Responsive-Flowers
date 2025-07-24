@@ -5,9 +5,8 @@
   font-family: "Noto Serif", serif;
 }
 
-body {
+.width {
   max-width: 1140px;
-  margin: 0 auto;
 }
 
 .primary-color {
