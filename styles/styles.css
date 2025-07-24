@@ -16,3 +16,7 @@
 .trusted-img {
   animation-duration: 10s;
 }
+
+button {
+  cursor: pointer;
+}
