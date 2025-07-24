@@ -56,7 +56,7 @@
 
     <main>
         <!-- Plant Section -->
-        <section class="mb-8 sm:pt-[120px]">
+        <section class="sm:pt-[120px]">
             <div class="plant-text text-center py-6 px-4 sm:px-[200px] space-y-5">
                 <h3 class="plant-title text-2xl sm:text-6xl font-bold "><span class="primary-color">Our</span> Plants
                 </h3>
@@ -64,7 +64,7 @@
                     flower shop. From
                     classic roses to exotic blooms, we offer a wide variety of fresh.</p>
             </div>
-            <div class="plant-cards grid grid-cols-2 sm:grid-cols-4 gap-5 mt-5 px-4">
+            <div class="plant-cards grid grid-cols-2 sm:grid-cols-4 gap-5 mt-5 px-4 sm:px-0">
                 <div class="plant-card shadow-md space-y-3 hover:scale-105 transition duration-500">
                     <img class="w-full" src="assets/sample-flower-image.png" alt="flower">
                     <h5 class="text-center">Lily Blossom <br> <span class="font-bold">20 USD</span></h5>
@@ -129,15 +129,16 @@
         </section>
         <!-- flower plants lover section  -->
         <section class="mb-8">
-            <img class="trusted-img hidden sm:inline w-60 relative top-[150px] right-[-380px] animate-spin" src="assets/trusted-badge.png" alt="">
+            <img class="trusted-img hidden sm:inline w-60 relative top-[150px] right-[-380px] animate-spin"
+                src="assets/trusted-badge.png" alt="">
             <div class="grid sm:grid-cols-2 items-center">
-                <div class="plant-img">
+                <div class="plant-img px-4 sm:px-0">
                     <img src="assets/flower-store.png" alt="">
                 </div>
                 <div class="plant-text py-6 px-4 space-y-5 sm:space-y-10">
                     <h3 class="font-noto text-black text-2xl sm:text-6xl font-bold text-start">Flower & Plants Lover
                     </h3>
-                    <ul class="list-disc pl-5 opacity-50 space-y-3">
+                    <ul class="list-disc pl-6 opacity-50 space-y-3">
                         <li>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic
                             roses to exotic blooms, we offer a wide variety of fresh.</li>
                         <li>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic
@@ -148,6 +149,62 @@
                             roses to exotic blooms, we offer a wide variety of fresh.</li>
                     </ul>
                 </div>
+            </div>
+        </section>
+
+        <!-- Leatest Deal Section -->
+        <section class="sm:my-[120px]">
+            <div class="space-y-5 px-4 sm:px-0">
+                <div class="leatest-text text-center space-y-4">
+                    <h3 class="plant-title text-2xl sm:text-6xl font-bold font-noto"><span
+                            class="primary-color">Leatest</span>
+                        Deals
+                    </h3>
+                    <p class="plant-discription opacity-50 sm:px-50">
+                        Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses
+                        to exotic blooms, we offer a wide variety of fresh.
+                    </p>
+                </div>
+                <div class="leatest-images grid sm:grid-cols-3 place-items-center gap-5 items-start">
+
+                    <div class="grid sm:grid-rows-2 sm:w-full sm:h-full gap-5">
+
+                        <!-- Card 1 -->
+                        <div
+                            class="bg-[url('assets/deal-bloom.png')] w-[300px] sm:w-full h-[180px] relative rounded-xl overflow-hidden bg-cover bg-center">
+                            <div class="absolute inset-0 bg-black opacity-50"></div>
+                            <div
+                                class="absolute inset-0 flex flex-col items-center justify-center text-white px-4 text-center space-y-3 font-semibold">
+                                <h2 class="text-lg font-noto">60% Off | Bloom Plant</h2>
+                                <button class="border-0 border-b-2">Shop Now</button>
+                            </div>
+                        </div>
+
+                        <!-- Card 2 -->
+                        <div
+                            class="bg-[url('assets/deal-ana.png')] w-[300px] sm:w-full  h-[180px]  relative rounded-xl overflow-hidden bg-cover bg-center">
+                            <div class="absolute inset-0 bg-black opacity-50"></div>
+                            <div
+                                class="absolute inset-0 flex flex-col items-center justify-center text-white px-4 text-center space-y-3 font-semibold">
+                                <h2 class="text-lg font-noto">30% Off | Ana Plant</h2>
+                                <button class="border-0 border-b-2">Shop Now</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 3-->
+                    <div
+                        class="bg-[url('assets/deal-zabo.png')] w-[300px] sm:w-full h-[180px] sm:h-full relative rounded-xl overflow-hidden bg-cover bg-center sm:col-span-2">
+                        <div class="absolute inset-0 bg-black opacity-50"></div>
+                        <div
+                            class="absolute inset-0 flex flex-col items-center justify-center text-white px-4 text-center space-y-3 font-semibold">
+                            <h2 class="text-lg font-noto">25% Off | Zabo Plant</h2>
+                            <button class="border-0 border-b-2">Shop Now</button>
+                        </div>
+                    </div>
+
+                </div>
+
             </div>
         </section>
     </main>
